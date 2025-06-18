@@ -1,0 +1,12 @@
+{
+  version 0.2.0,
+  configurations [
+    {
+      name Run Bitcoin Key Explorer,
+      type python,
+      request launch,
+      program ${workspaceFolder}bitcoin_key_explorer.py,
+      console integratedTerminal
+    }
+  ]
+}
