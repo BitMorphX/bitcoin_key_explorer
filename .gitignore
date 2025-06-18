@@ -1,10 +1,21 @@
+# Python bytecode
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.swp
-*.swo
-.env
-.venv
-dist/
-build/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+
+# IDE settings
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
